@@ -1,0 +1,18 @@
+site_name: edaSymbols (eda-symbols)
+site_description: C++20 Direct2D library containing IEEE and IEC schematic symbols for circuit CAD and EDA
+site_url: https://haievyi.github.io/eda-symbols/
+repo_url: https://github.com/haievyi/eda-symbols
+repo_name: haievyi/eda-symbols
+
+docs_dir: docs
+
+theme:
+  name: material
+
+hooks:
+  - scripts/gen_docs.py
+
+nav:
+  - Home: index.md
+  - Symbols & Gallery: symbols.md
+  - Changelog: changelog.md
